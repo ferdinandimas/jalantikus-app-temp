@@ -3,8 +3,8 @@ define(
         "underscore",
         "backbone",
         "jquery",
-        "text!app/views/timeline_template.html",
-        "app/models/homeModel"
+        "text!views/timeline_template.html",
+        "models/homeModel"
     ],
     function (_, Backbone, $, timelineTemplate, homeCollection) {
         var homeView = Backbone.View.extend({
